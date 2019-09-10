@@ -1,9 +1,11 @@
 BasicGAN
 --
-**Dataset: https://console.cloud.google.com/storage/browser/quickdraw_dataset/full/numpy_bitmap?pli=1 **
-<br/>
+
+
 **標準的用 Keras 搭建 GAN 網絡**
 **目的: 為了熟悉一下怎麼使用 Keras, 和 GAN 的一些基本認識**
+<br/>
+**Dataset: https://console.cloud.google.com/storage/browser/quickdraw_dataset/full/numpy_bitmap?pli=1 **
 
 <div align=center> <img src="https://github.com/AvisChiu/Machine_learning_practice/blob/master/BasicGAN/figure/GAN1.png" width="500",height="500"/></div>
 <br/>
