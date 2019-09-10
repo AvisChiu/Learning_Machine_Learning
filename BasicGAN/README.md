@@ -10,7 +10,8 @@ BasicGAN
 
 <br/>
 
-**GAN 的實際訓練流程
+
+**GAN 的實際訓練流程**
 
   * 1. 從 真實資料 裡面 sample 一些資料出來。
   * 2. 從 noise 裡面 sample 一些資料出來。
@@ -37,7 +38,8 @@ g_loss = self.combined.train_on_batch(noise, valid_y)
 
 <br/>
 
-**Generator 網絡結構 
+
+**Generator 網絡結構**
 
   * 20 --> 256 --> 512 --> 784 
   * 因為真實資料的大小是 28 x 28，因此 generator 出來的要與之對應， 最後 reshape
@@ -56,7 +58,7 @@ model.add(Reshape(self.image_shape))
         
 ```
 
-**Discriminator 網絡結構 
+**Discriminator 網絡結構** 
 
   * 注意 Discriminator 最後輸出的是一個 “分數”
 ```
@@ -72,14 +74,14 @@ model.add(Dense(1, activation='sigmoid'))           # 輸出 1
      
 ```
 
-**輸入 Input
+**輸入 Input**
 
 ```
 self.image_shape = (28, 28, 1)   
 self.noise_shape = (20,)
 ```
 
-**實驗結果（沒 1000 個 epoch 輸出一次）
+**實驗結果（沒 1000 個 epoch 輸出一次）**
 
 <div align=center> <img src="https://github.com/AvisChiu/Machine_learning_practice/blob/master/BasicGAN/figure/mnist_0.png" width="600",height="600"/></div>
 <br/>
