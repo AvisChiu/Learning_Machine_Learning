@@ -9,7 +9,7 @@ BasicGAN
 ```
 from keras.datasets.mnist import load_data
 ```
-<br>/
+<br/>
 
 **資料要先經過一些處理**
 ```
@@ -24,9 +24,24 @@ def load_real_samples(self):
 其他跟 BaiscGAN 一樣，只不過是換了一個「資料集」
 
 
-<br>/
+<br/>
 **資料要先經過一些處理（擷取每 10000 個 epoch ）**
 **(1000, 10000,20000,30000,40000,50000)**
 
 <div align=center> <img src="https://github.com/AvisChiu/Machine_learning_practice/blob/master/BasicGAN-Mnist/figure/mnist_1000.png" width="600",height="600"/></div>
+<br/>
+
+<div align=center> <img src="https://github.com/AvisChiu/Machine_learning_practice/blob/master/BasicGAN-Mnist/figure/mnist_10000.png" width="600",height="600"/></div>
+<br/>
+
+<div align=center> <img src="https://github.com/AvisChiu/Machine_learning_practice/blob/master/BasicGAN-Mnist/figure/mnist_20000.png" width="600",height="600"/></div>
+<br/>
+
+<div align=center> <img src="https://github.com/AvisChiu/Machine_learning_practice/blob/master/BasicGAN-Mnist/figure/mnist_30000.png" width="600",height="600"/></div>
+<br/>
+
+<div align=center> <img src="https://github.com/AvisChiu/Machine_learning_practice/blob/master/BasicGAN-Mnist/figure/mnist_40000.png" width="600",height="600"/></div>
+<br/>
+
+<div align=center> <img src="https://github.com/AvisChiu/Machine_learning_practice/blob/master/BasicGAN-Mnist/figure/mnist_50000.png" width="600",height="600"/></div>
 <br/>
