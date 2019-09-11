@@ -1,9 +1,9 @@
-BasicGAN
+BasicGAN-Mnist
 --
 
-
 **標準的用 Keras 搭建 GAN 網絡**    
-**目的: 為了熟悉一下怎麼使用 Keras, 和 GAN 的一些基本認識**    
+**目的: 繼續熟悉一下怎麼使用 Keras, 和 GAN 的一些基本認識， 進一步知道怎麼灌入資料集**    
+**下一步: 可以試試直接收集的資料，需要做前處理**
 **Dataset: 直接 call keras 下載**
 
 ```
