@@ -1,7 +1,10 @@
 Data-Preprocessing
 --
 **實現一些簡單的前處理**    
-**目的: 熟悉前處理的一些步驟**    
+**目的: 熟悉前處理的一些步驟**   
+**參考：**   
+https://github.com/Avik-Jain/100-Days-Of-ML-Code
+https://www.pluralsight.com/guides/handling-categorical-data-in-machine-learning-models
 <br/>
 
 
