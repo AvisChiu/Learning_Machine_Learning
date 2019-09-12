@@ -6,6 +6,7 @@ Data-Preprocessing
 
 
 **原始資料資料**
+
 ```
 Country,  Age,   Salary,  Purchased
 ------------------------------------
@@ -32,7 +33,8 @@ Y = dataset.iloc[ : , 3].values
 
 <br/>
 
-**補全缺失的資料, 這裡使用了 "most_frequent" **
+**補全缺失的資料, 這裡使用了 "most_frequent"**
+
 ```
 imputer = Imputer(missing_values = "NaN", strategy = "most_frequent", axis = 0)
 imputer = imputer.fit(X[ : , 1:3])
@@ -77,13 +79,14 @@ X[ : , 0] = labelencoder_X.fit_transform(X[ : , 0])
 
 <br/>
 
-**# 根據剛剛建立的標籤進行編碼
-# You may notice that the columns have increased in the data set.    
-# The column 'Country' is broken into three columns and column Gender is broken into two columns.     
-# Thus, the resulting number of columns in X vector is increased from four to seven.     
-# Also, notice that after applying the OneHotEncoding function,     
-# the values in the Panda Dataframe are changed to scientific notation.    
-**
+**根據剛剛建立的標籤進行編碼**   
+**You may notice that the columns have increased in the data set.**   
+**The column 'Country' is broken into three columns and column Gender is broken into two columns.**    
+**Thus, the resulting number of columns in X vector is increased from four to seven.**   
+**Also, notice that after applying the OneHotEncoding function,**   
+**the values in the Panda Dataframe are changed to scientific notation.**   
+
+
 ```
 onehotencoder = OneHotEncoder(categorical_features = [0])
 X = onehotencoder.fit_transform(X).toarray()
@@ -109,6 +112,7 @@ Y =  labelencoder_Y.fit_transform(Y)
 <br/>
 
 **分割訓練集和測試集**
+
 ```
 X_train, X_test, Y_train, Y_test = train_test_split( X , Y , test_size = 0.2, random_state = 0)
 ```
@@ -116,6 +120,7 @@ X_train, X_test, Y_train, Y_test = train_test_split( X , Y , test_size = 0.2, ra
 <br/>
 
 **去均值和方差归一化。且是针对每一个特征维度来做的，而不是针对样本（各列的 mean 為 0 , 方差為 1）**
+
 ```
 sc_X = StandardScaler()
 X_train = sc_X.fit_transform(X_train)
