@@ -1,5 +1,6 @@
 The figure froom https://blog.csdn.net/artprog/article/details/61614452
-& https://zh-tw.coursera.org/learn/ntumlone-mathematicalfoundations （NTU Prof.HT Lin） 
+& https://zh-tw.coursera.org/learn/ntumlone-mathematicalfoundations （NTU Prof.HT Lin）     
+http://terrence.logdown.com/posts/290508-python-simple-perceptron-learning-algorithm-implementations
 <div align=center> <img src="https://github.com/AvisChiu/Machine_learning_practice/blob/master/PLA/pla.png" width="800",height="600"/></div>
 <br/>
 
