@@ -3,7 +3,7 @@ The figure froom https://blog.csdn.net/artprog/article/details/61614452
 <div align=center> <img src="https://github.com/AvisChiu/Machine_learning_practice/blob/master/PLA/pla.png" width="800",height="600"/></div>
 <br/>
 
-<div align=center> <img src="https://github.com/AvisChiu/Machine_learning_practice/blob/master/PLA/pla2.png" width="800",height="600"/></div>
+<div align=center> <img src="https://github.com/AvisChiu/Machine_learning_practice/blob/master/PLA/pla2.PNG" width="800",height="600"/></div>
 <br/>
 
 
@@ -15,4 +15,4 @@ Some notes of PLA
 * 更新方法： w <-- w + yx (如上圖)
 * 内積是一個確定的值，作 np.sign 是爲了落在 -1 和 1，
 * 最後得到一個法向量 w ，根據法向量找出直綫 Ax+Bx+C=0 （PLA只能是一條直綫，因爲是綫性分類器）
-* 法向量 = （A，B）
+* 假設法向量為 (m,n), 那麽直綫的斜率為 （-m/n）, y 軸的截距為 (-C/n), C 已經知道是 1 了。
