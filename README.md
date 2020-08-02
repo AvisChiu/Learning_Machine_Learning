@@ -8,4 +8,5 @@ https://github.com/DeqianBai/Hands-on-Machine-Learning
 https://github.com/ljpzzz/machinelearning
 https://github.com/SaveTheRbtz/ml-class
 https://github.com/BrambleXu/pydata-notebook
+https://github.com/Robinwho/Deep-Learning
 ```
